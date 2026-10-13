@@ -1,6 +1,6 @@
 """
 DataOps Sentinel — Enterprise ETL Observability, Data Quality & Incident RCA Command Center
-Portfolio Project by Ankur Bhatt (Senior Analyst — Data Operations & Analytics)
+Author: Ankur Bhatt
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ from src.genai_copilot import (
 # PAGE CONFIGURATION & CUSTOM STYLING
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="DataOps Sentinel | Ankur Bhatt Portfolio",
+    page_title="DataOps Sentinel | Enterprise Pipeline Observability",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -607,12 +607,12 @@ with tab_ai:
 
 
 # =============================================================================
-# TAB 6: CLIENT CUSTOM CSV AUDIT & CLEANSING SANDBOX
+# TAB 6: CUSTOM CSV AUDIT & CLEANSING SANDBOX
 # =============================================================================
 with tab_client:
-    st.subheader("📤 Client Custom Dataset Profiler & Automated Cleansing Sandbox")
+    st.subheader("📤 Ad-Hoc Dataset Profiler & Automated Cleansing Utility")
     st.caption(
-        "Built for live client consultations & interviews: upload any raw CSV dataset to automatically profile column quality, strip duplicates, impute missing values, flag extreme IQR outliers, and export a clean Silver dataset."
+        "Upload any raw CSV feed to automatically profile column completeness, strip exact duplicates, impute missing values, flag extreme 3x IQR outliers, and export a standardized Silver dataset."
     )
 
     uploaded_file = st.file_uploader(
