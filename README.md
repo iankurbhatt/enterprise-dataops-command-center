@@ -209,7 +209,7 @@ enterprise-dataops-command-center/
 
 ### 1. Clone the Repository & Install Dependencies
 ```bash
-git clone https://github.com/<your-github-username>/enterprise-dataops-command-center.git
+git clone https://github.com/iankurbhatt/enterprise-dataops-command-center.git
 cd enterprise-dataops-command-center
 pip install -r requirements.txt
 ```
