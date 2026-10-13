@@ -154,8 +154,9 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
     st.markdown(
-        "🔗 [LinkedIn Profile](https://www.linkedin.com/in/iankurbhatt) | "
-        "📧 [iankurbhatt1@gmail.com](mailto:iankurbhatt1@gmail.com)"
+        "🔗 [GitHub Repo](https://github.com/iankurbhatt/enterprise-dataops-command-center) | "
+        "💼 [LinkedIn](https://www.linkedin.com/in/iankurbhatt) | "
+        "📧 [Email](mailto:iankurbhatt1@gmail.com)"
     )
 
 
